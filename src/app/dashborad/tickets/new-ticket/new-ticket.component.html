@@ -1,1 +1,14 @@
-<p>new-ticket works!</p>
+<form>
+  <app-control [label]="'title'">
+    <input type="text" name="title" id="title">
+  </app-control>
+  <app-control [label]="'request'">
+    <textarea name="request" id="request"></textarea>
+  </app-control>
+  <p>
+    <button appButton>
+      Submit
+      <span ngProjectAs="icon"> → </span>
+    </button>
+  </p>
+</form>
