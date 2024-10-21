@@ -10,5 +10,7 @@ import { ControlComponent } from "../../../shared/control/control.component";
   styleUrl: './new-ticket.component.scss'
 })
 export class NewTicketComponent {
-
+  onSubmit(title:string,text:string){
+    console.log(title,text)
+  }
 }
